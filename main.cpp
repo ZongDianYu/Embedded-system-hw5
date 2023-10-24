@@ -13,7 +13,7 @@ PwmOut led(PWM_OUT);
 int main()
 {
     // specify period first
-    led.period(0.05f);      // 4 second period
+    led.period(0.05f);      
     led.write(0.50f);      // 50% duty cycle, relative to period
     //led = 0.5f;          // shorthand for led.write()
     //led.pulsewidth(2);   // alternative to led.write, set duty cycle time in seconds
